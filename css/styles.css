@@ -1,3 +1,47 @@
+:root {
+  --main-btn-color: #ffffff;
+  --second-btn-color: #303030;
+  --main-title-color: #ffffff;
+  --second-title-color: #303030;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+.nav-list {
+  list-style: none;
+}
+.header {
+  background-color: gray;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav-list-link,
+.tel {
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.tel:hover,
+.tel:focus {
+  color: #ff6c00;
+}
+
+.button-primary {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.33;
+  text-transform: uppercase;
+  color: var(--btn-color);
 }
